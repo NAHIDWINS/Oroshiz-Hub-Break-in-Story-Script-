@@ -106,6 +106,8 @@ MainTab:AddButton({
 }
 
 game:GetService("ReplicatedStorage"):WaitForChild("RemoteEvents"):WaitForChild("GiveTool"):FireServer(unpack(args))
+end
+})
 
 MainTab:AddButton({
 	Name = "Get Planks",
@@ -198,4 +200,3 @@ OtherTab:AddButton({
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Pro69Yes/sussy-Script/main/SecuredFlyGuiv3.lua'))
 end
 })
-
